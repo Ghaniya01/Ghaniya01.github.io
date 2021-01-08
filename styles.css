@@ -1,0 +1,216 @@
+html, body{
+    height: 100%;
+    background-color: #F2C5E0;
+    font-family:sans-serif;
+}
+
+#container{
+           height: 100px; 
+           display: flex;
+           float: row;
+         
+           text-align: center;
+          background-color: #F2C5E0; 
+          color: #870A30;
+         width: 100%;
+           
+       } 
+    
+       .contact{
+          height: 80px;
+           width: 30%;
+           align-content: space-around;
+           margin-left: 35px;
+           margin-top:20px; 
+           
+       }
+     
+    
+       #button1{
+          background-color: #D43790;
+           color: #870A30;
+            width: 100%;
+           height: 200px;
+           font-size: 30px;
+         margin-bottom: 10px;
+          
+           
+       }
+    
+         #button2{
+         background-color: #EC8FD0;
+        margin-bottom: 10px;
+        width: 100%;
+           height: 200px;
+           font-size: 30px;
+        
+              
+       }
+       
+        #button3{
+         background-color: #870A30;
+             margin-bottom: 10px;
+          width: 100%;
+           height: 200px;
+           font-size: 30px;
+        
+             
+       }
+       
+       .nav-link{
+           color: #E7D2CC;
+           font-size: 20px;
+       }
+       
+     .btn a:hover{
+           text-decoration: none;
+           font-size: 45px;
+       }
+       
+       .nav-link:hover{
+           font-size: 23px;
+       }
+       a{
+           text-decoration: none;
+       }
+
+       .albumcontainer{
+           display: flex;
+           float: row;
+           background-color: #F2C5E0; 
+       }
+        
+        
+          .photo{
+          
+           height: 350px;
+           width:25%;
+           background-color: white;
+           margin: auto;
+           margin-top: 30px;
+          
+       }
+        
+         #last{
+          margin-right: 130px; 
+           
+       }
+    
+       #album1{
+          margin-left: 130px; 
+           
+    
+       }
+    
+       
+      
+        .input{
+            width: 200px;
+            margin-left: 50px;
+            background-color:#F2C5E0;
+            color: #870A30;
+            border: none;
+
+        }
+    
+    
+    
+     .nav-link:hover{
+           font-size: 25px;
+       }
+    
+        .input a:hover{
+            text-decoration: none;
+            font-size: 20px;
+            color:#870A30; 
+        }
+    
+        .input a{
+            text-decoration: none;
+            color: #870A30; 
+        }
+
+
+.social a{
+padding: 3rem;
+font-size: 3em;
+}
+
+.social a:hover{
+font-size: 3.5em;
+}
+
+
+.socialmedia a{
+    padding: 2rem;
+    font-size: 3em;
+}
+.socialmedia a:hover{
+   font-size: 3.5em;
+}
+
+    
+.navbar{
+   margin-bottom: 10px;
+ width: 100%;
+}
+
+.card{
+     background-color: #EC8FD0;
+}
+.card-text{
+    color: #870A30;
+   
+}
+#footer1{
+    text-align: center;
+    color: #870A30;
+}
+
+
+hr{
+    border-top: 0.5px solid  #870A30;
+    width: 50%;
+
+}
+hr.light{
+    width: 100%;
+    
+}
+.row text-center{
+    color:#870A30; 
+}
+@media (max-width: 992px){
+   .socialmedia a{
+    padding: 1rem;
+    font-size: 2.5em;
+} 
+}
+@media (max-width: 768px){
+    .jumbotron h1{
+        font-size: 38px;
+        padding: 10px;
+    } 
+    .card-text{
+        font-size: 15px;
+    }
+    .container-fluid h5{
+        font-size: 15px;
+    }
+     .socialmedia a{
+    padding: 0.5rem;
+    font-size: 2em;
+} 
+}
+@media (max-width: 576px){
+    .jumbotron h1{
+        font-size: 35px;
+        padding: 10px;
+    } 
+     .container-fluid h5{
+        font-size: 13px;
+    }
+    .topic h5{
+        font-size: 15px;
+    }
+}
