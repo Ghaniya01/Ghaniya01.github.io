@@ -1,7 +1,7 @@
 html, body{
     height: 100%;
-    background-color: #F2C5E0;
-    font-family:sans-serif;
+    background-color: #EEEDE7;
+    font-family:poppins;
 }
 
 #container{
@@ -16,29 +16,52 @@ html, body{
            
        } 
     
-       .contact{
-          height: 80px;
-           width: 30%;
-           align-content: space-around;
-           margin-left: 35px;
-           margin-top:20px; 
-           
-       }
-     
+.contact{
+    background-image: url(images/follow.jpg);
+    background-repeat: no-repeat;
+     background-position: center center;
+          background-size: cover;
+   height: 500px;
+    text-align: center; 
+    color: #870A30";
+       
+}
+.jumbotron{
+    height: 250px;
+    text-align: center;  
+    background-color: #E7D2CC; 
+    color: darkslategrey;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px 15px #000;
+}
+.graphics{
+    height: 250px; text-align: center; 
+      background-image: url(images/design2.jpg);
+        background-repeat: no-repeat;
+         background-position: center center;
+          background-size: cover;
+   
+    color: #870A30"
+}
     
        #button1{
-          background-color: #D43790;
-           color: #870A30;
+         background-image: url(images/design2.jpg);
+        background-repeat: no-repeat;
+         background-position: center center;
+          background-size: cover;
             width: 100%;
            height: 200px;
            font-size: 30px;
-         margin-bottom: 10px;
-          
+            margin-bottom: 10px;
            
+       
        }
     
          #button2{
-         background-color: #EC8FD0;
+         background-image: url(images/blog2.jpg);
+        background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center center;
         margin-bottom: 10px;
         width: 100%;
            height: 200px;
@@ -48,7 +71,11 @@ html, body{
        }
        
         #button3{
-         background-color: #870A30;
+        
+     background-image: url(images/shop1.jpg);
+        background-repeat: no-repeat;
+        
+         background-position: center center;
              margin-bottom: 10px;
           width: 100%;
            height: 200px;
@@ -56,53 +83,28 @@ html, body{
         
              
        }
-       
+
+.padding{
+    margin-bottom: 20px;
+}
        .nav-link{
            color: #E7D2CC;
            font-size: 20px;
+         
        }
-       
+
      .btn a:hover{
            text-decoration: none;
-           font-size: 45px;
+           font-size: 40px;
        }
-       
-       .nav-link:hover{
+.  .nav-link:hover{
            font-size: 23px;
        }
        a{
            text-decoration: none;
        }
 
-       .albumcontainer{
-           display: flex;
-           float: row;
-           background-color: #F2C5E0; 
-       }
-        
-        
-          .photo{
-          
-           height: 350px;
-           width:25%;
-           background-color: white;
-           margin: auto;
-           margin-top: 30px;
-          
-       }
-        
-         #last{
-          margin-right: 130px; 
-           
-       }
-    
-       #album1{
-          margin-left: 130px; 
-           
-    
-       }
-    
-       
+      
       
         .input{
             width: 200px;
@@ -132,34 +134,26 @@ html, body{
 
 
 .social a{
-padding: 3rem;
-font-size: 3em;
+font-size:20px;
 }
 
 .social a:hover{
-font-size: 3.5em;
+font-size: 25px;
 }
 
 
-.socialmedia a{
-    padding: 2rem;
-    font-size: 3em;
-}
-.socialmedia a:hover{
-   font-size: 3.5em;
-}
 
     
 .navbar{
-   margin-bottom: 10px;
+  
  width: 100%;
 }
 
 .card{
-     background-color: #EC8FD0;
+     background-color:#EEEDE7;
 }
 .card-text{
-    color: #870A30;
+    color: darkslategrey;
    
 }
 #footer1{
@@ -167,9 +161,8 @@ font-size: 3.5em;
     color: #870A30;
 }
 
-
 hr{
-    border-top: 0.5px solid  #870A30;
+    border-top: 0.5px solid darkslategrey;
     width: 50%;
 
 }
@@ -181,36 +174,47 @@ hr.light{
     color:#870A30; 
 }
 @media (max-width: 992px){
-   .socialmedia a{
-    padding: 1rem;
-    font-size: 2.5em;
+   .social a{
+    font-size: 19px;;
 } 
+   
 }
 @media (max-width: 768px){
     .jumbotron h1{
-        font-size: 38px;
-        padding: 10px;
+        font-size: 30px;
+       padding-top: 20px;
     } 
+    .jumbotron p{
+        font-size: 10px;
+    }
     .card-text{
         font-size: 15px;
     }
     .container-fluid h5{
         font-size: 15px;
     }
-     .socialmedia a{
-    padding: 0.5rem;
-    font-size: 2em;
+     .social a{
+    
+    font-size:17px;
 } 
+   
 }
 @media (max-width: 576px){
     .jumbotron h1{
-        font-size: 35px;
+        font-size: 25px;
         padding: 10px;
     } 
+     .jumbotron p{
+        font-size: 9px;
+    }
      .container-fluid h5{
         font-size: 13px;
     }
     .topic h5{
         font-size: 15px;
     }
+    .social a{
+
+font-size:15px;
+}
 }
