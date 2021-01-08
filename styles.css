@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
 html, body{
     height: 100%;
     background-color: #EEEDE7;
-    font-family:poppins;
+    font-family:"poppins";
 }
 
 #container{
@@ -31,7 +35,12 @@ html, body{
     text-align: center;  
     background-color: #E7D2CC; 
     color: darkslategrey;
-    font-weight: 500;
+    text-align: center;
+    padding-top: 50px;
+}
+.jumbotron h1{
+     color: darkslategrey;
+     font-weight: 500;
     text-shadow: 1px 1px 1px 15px #000;
 }
 .graphics{
